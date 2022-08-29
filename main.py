@@ -27,6 +27,12 @@ for i in range(1,21):
 def home():
     return render_template("index.html", pokemons=pokemons,number=len(pokemons))
 
+@app.route("/widget")
+def widget():
+    temp_poke = random.choice(pokemons)
+
+    return render_template("widget.html", pokemon=temp_poke)
+
 
 if __name__ == "__main__":
     app.run(debug=True)
