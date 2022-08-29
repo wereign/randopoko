@@ -1,0 +1,19 @@
+body{
+    margin: 2%;
+    padding:2%
+    align-items: center;
+    background-color: black;
+}
+
+
+.pokemon{
+    padding: 2%;
+    background-color: black;
+    items-align: center;
+}
+
+h4.names{
+    font-size: small;
+    text-align: center;
+    color: aqua;
+}
